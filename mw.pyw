@@ -38,6 +38,7 @@ def vdecrypt(ctext: str, key: str) -> str:
 			dec += ctext[i]
 	return dec
 
+
 class AnimatedGIF(tk.Label):
 	def __init__(self, master, path, alt_text=vdecrypt("Smnte nan kvnvlkbxy", KANNA_KAMUI)):
 		super().__init__(master)
